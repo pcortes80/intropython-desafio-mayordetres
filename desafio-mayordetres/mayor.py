@@ -6,9 +6,9 @@ largo = len(sys.argv)
 
 # Solo si la cantidad de argumentos ingresados es correcta se realizan los calculos
 if largo > 3:
-    numero1 = int(sys.argv[1]) # lee el primer argumento del script : primer numero
-    numero2 = int(sys.argv[2]) # lee el segundo argumento del script : segundo numero
-    numero3 = int(sys.argv[3]) # lee el tercer argumento del script : tercer numero
+    numero1 = int(sys.argv[1]) # lee el primer argumento del script : primer número
+    numero2 = int(sys.argv[2]) # lee el segundo argumento del script : segundo número
+    numero3 = int(sys.argv[3]) # lee el tercer argumento del script : tercer número
         
     # Compara numero1 con numero2
     if numero1 > numero2:
